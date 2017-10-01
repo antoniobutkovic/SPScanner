@@ -9,28 +9,30 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="5dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
             android:text="Barkod"
-            android:textColor="#000" />
+            android:textColor="#000"
+            android:gravity="left"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_weight="0.16"
             android:text="Opis"
             android:textColor="#000"
-            android:textAlignment="center"/>
+            android:gravity="left"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.4"
             android:text="Datum"
             android:textColor="#000"
-            android:textAlignment="center"/>
+            android:gravity="center"/>
     </LinearLayout>
 
     <ListView

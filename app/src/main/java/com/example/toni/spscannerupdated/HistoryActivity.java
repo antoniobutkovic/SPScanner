@@ -12,6 +12,7 @@ public class HistoryActivity extends AppCompatActivity {
 
     private ListviewAdapter listviewAdapter;
     private DatabaseHandler databaseHandler;
+    private ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +23,13 @@ public class HistoryActivity extends AppCompatActivity {
 
         databaseHandler = new DatabaseHandler(this);
 
-        ListView listView = (ListView) findViewById(R.id.list_view);
+        listView = (ListView) findViewById(R.id.list_view);
         listviewAdapter = new ListviewAdapter(this, databaseHandler.getRecords());
         listView.setAdapter(listviewAdapter);
+
+        if (listView.getCount() < 1){
+            setContentView(R.layout.blank_layout);
+        }
 
     }
 
@@ -42,6 +47,9 @@ public class HistoryActivity extends AppCompatActivity {
             case R.id.clear:
                 databaseHandler.clearHistory();
                 listviewAdapter.changeCursor(databaseHandler.getRecords());
+                if (listView.getCount() < 1){
+                    setContentView(R.layout.blank_layout);
+                }
                 break;
             default:
                 finish();

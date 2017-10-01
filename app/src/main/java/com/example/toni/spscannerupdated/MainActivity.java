@@ -59,7 +59,12 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         View view = getLayoutInflater().inflate(R.layout.custom_dialog, null);
         final TextView resultTv = view.findViewById(R.id.result_tv);
-        resultTv.setText("SN: " + poiReadExcelFile.getSn() + "\n" + "INV: " + poiReadExcelFile.getInv() + "\n" + "MPP: " + poiReadExcelFile.getMpp() + "\n" + "STRING: " + poiReadExcelFile.getString());
+        if (poiReadExcelFile.getSn() == null || poiReadExcelFile.getInv() == null || poiReadExcelFile.getMpp() == null || poiReadExcelFile.getString() == null ){
+            view = getLayoutInflater().inflate(R.layout.blank_dialog, null);
+        }else{
+            resultTv.setText("SN: " + poiReadExcelFile.getSn() + "\n" + "INV: " + poiReadExcelFile.getInv() + "\n" + "MPP: " + poiReadExcelFile.getMpp() + "\n" + "STRING: " + poiReadExcelFile.getString());
+        }
+
         builder.setNegativeButton("Poništi", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -83,14 +88,21 @@ public class MainActivity extends AppCompatActivity {
         if (result != null){
             if(result.getContents() == null){
                 Toast.makeText(this, "Skeniranje je prekinuto", Toast.LENGTH_LONG).show();
+
             }else{
+
                 poiReadExcelFile = new POIReadExcelFile(this, result.getContents());
                 poiReadExcelFile.readExcelFile("zavrsni.xls");
-                showResult();
-                SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm");
-                String timestamp = sdf.format(new Date());
-                databaseHandler = new DatabaseHandler(MainActivity.this);
-                databaseHandler.storeToDatabase(result.getContents(),"SN: " + poiReadExcelFile.getSn() + "\n" + "INV: " + poiReadExcelFile.getInv() + "\n" + "MPP: " + poiReadExcelFile.getMpp() + "\n" + "STRING: " + poiReadExcelFile.getString(), timestamp);
+
+                if (poiReadExcelFile.getSn() == null || poiReadExcelFile.getInv() == null || poiReadExcelFile.getMpp() == null || poiReadExcelFile.getString() == null){
+                    showResult();
+                }else{
+                    showResult();
+                    SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm");
+                    String timestamp = sdf.format(new Date());
+                    databaseHandler = new DatabaseHandler(MainActivity.this);
+                    databaseHandler.storeToDatabase(result.getContents(),"SN: " + poiReadExcelFile.getSn() + "\n" + "INV: " + poiReadExcelFile.getInv() + "\n" + "MPP: " + poiReadExcelFile.getMpp() + "\n" + "STRING: " + poiReadExcelFile.getString(), timestamp);
+                }
             }
         }else{
             super.onActivityResult(requestCode, resultCode, data);

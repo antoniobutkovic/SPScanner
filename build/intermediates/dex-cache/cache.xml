@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Toni\AndroidStudioProjects\SPScanner\app\libs\poi-3.16.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad21c123ee5d6b5b2a8f0d4ed23b3ffe6759a889">
+        <dex dex="E:\Toni\AndroidStudioProjects\SPScanner\app\build\intermediates\transforms\dex\debug\folders\1000\2\poi-3.16_1b22eac82ba1b04167e86f261daffb64519679e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Toni\AndroidStudioProjects\SPScanner\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\Toni\AndroidStudioProjects\SPScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f025fa5cdab2b20908b52fc1c843278e9efdcfd5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Toni\AndroidStudioProjects\SPScanner\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a3452a88e1e29d09993f3a75a999c3a72d73a499">
+        <dex dex="E:\Toni\AndroidStudioProjects\SPScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a6783c0748e5db8a1e1c73e43fb110957c0e3b50\classes.dex" />
+    </item>
+
+</items>

@@ -1,4 +1,4 @@
-#Thu Oct 12 21:55:10 CEST 2017
+#Mon Oct 23 21:53:13 CEST 2017
 base.0=E\:\\Toni\\AndroidStudioProjects\\SPScanner\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a6783c0748e5db8a1e1c73e43fb110957c0e3b50
 renamed.1=classes2.dex
 renamed.0=classes.dex

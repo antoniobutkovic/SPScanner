@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.
 	android:name
 		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:5:22-78
 application
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:7:5-23:19
+ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:7:5-22:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\1ca94cbc2071f9061ca0fcde9c0a64bdee5a946e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\9ee69962889c98fe612c6c7ef5c253dca904d500\output\AndroidManifest.xml:29:5-20
@@ -42,10 +42,10 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.an
 		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:9:9-43
 	android:theme
 		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.example.toni.spscannerupdated.MainActivity
+activity#com.example.toni.spscannerupdated.main.MainActivity
 ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:14:19-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
@@ -56,10 +56,10 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:18:27-74
-activity#com.example.toni.spscannerupdated.HistoryActivity
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:21:9-22:20
+activity#com.example.toni.spscannerupdated.history.HistoryActivity
+ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:21:9-70
 	android:name
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:21:19-50
+		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:21:19-58
 uses-sdk
 INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:21:5-23:78

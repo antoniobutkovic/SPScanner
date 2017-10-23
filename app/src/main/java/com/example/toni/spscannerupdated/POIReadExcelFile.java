@@ -12,7 +12,6 @@ import java.io.FileInputStream;
 
 public class POIReadExcelFile {
 
-    private  Context context;
     private String scannedValue;
     private String sn;
     private String inv;
@@ -20,8 +19,7 @@ public class POIReadExcelFile {
     private String string;
 
 
-    POIReadExcelFile (Context context, String scannedValue){
-        this.context = context;
+    POIReadExcelFile (String scannedValue){
         this.scannedValue = scannedValue;
     }
 

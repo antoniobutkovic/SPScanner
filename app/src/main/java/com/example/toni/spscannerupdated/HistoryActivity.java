@@ -7,12 +7,15 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ListView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 
 public class HistoryActivity extends AppCompatActivity {
 
-    private ListviewAdapter listviewAdapter;
+    @BindView(R.id.list_view)ListView listView;
     private DatabaseHandler databaseHandler;
-    private ListView listView;
+    private ListviewAdapter listviewAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +26,8 @@ public class HistoryActivity extends AppCompatActivity {
 
         databaseHandler = new DatabaseHandler(this);
 
-        listView = (ListView) findViewById(R.id.list_view);
+        ButterKnife.bind(this);
+
         listviewAdapter = new ListviewAdapter(this, databaseHandler.getRecords());
         listView.setAdapter(listviewAdapter);
 

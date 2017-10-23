@@ -15,10 +15,13 @@ import com.google.zxing.integration.android.IntentResult;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button scanBtn, historyBtn;
     private DatabaseHandler databaseHandler;
     private POIReadExcelFile poiReadExcelFile;
 
@@ -26,27 +29,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        scanBtn = (Button) findViewById(R.id.scan_btn);
-        historyBtn = (Button) findViewById(R.id.history_btn);
-
-        scanBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startScan();
-            }
-        });
-
-        historyBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), HistoryActivity.class));
-            }
-        });
-
+        ButterKnife.bind(this);
     }
 
-    public void startScan() {
+    @OnClick (R.id.scan_btn)
+    public void startScan(){
         IntentIntegrator intentIntegrator = new IntentIntegrator(MainActivity.this);
         intentIntegrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
         intentIntegrator.setPrompt("");
@@ -54,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
         intentIntegrator.setBeepEnabled(false);
         intentIntegrator.initiateScan();
     }
+
+    @OnClick (R.id.history_btn)
+    public void startHistoryActivity(){
+        startActivity(new Intent(getApplicationContext(), HistoryActivity.class));
+    }
+
 
     public void showResult(){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
@@ -91,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
             }else{
 
-                poiReadExcelFile = new POIReadExcelFile(this, result.getContents());
+                poiReadExcelFile = new POIReadExcelFile(result.getContents());
                 poiReadExcelFile.readExcelFile("zavrsni.xls");
 
                 if (poiReadExcelFile.getSn() == null || poiReadExcelFile.getInv() == null || poiReadExcelFile.getMpp() == null || poiReadExcelFile.getString() == null){

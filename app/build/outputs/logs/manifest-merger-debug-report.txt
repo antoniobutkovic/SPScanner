@@ -27,9 +27,9 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Toni\.a
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\83cb0467b12af71fc54695f751bb1b47e20189f0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\f201e712cf173b595828cd122296f81d2d6d0905\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\20d03e0f813b5a8c04434a71429162faf5eaa124\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\c736d738c8cd6c905de59c4034a14c119205cfa6\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.android\build-cache\08d1b9fffe46bdc558fdac865063d36d671e68cc\output\AndroidManifest.xml:9:5-20
 MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:47:5-55:19
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\c736d738c8cd6c905de59c4034a14c119205cfa6\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -70,9 +70,10 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Toni\.a
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\83cb0467b12af71fc54695f751bb1b47e20189f0\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\f201e712cf173b595828cd122296f81d2d6d0905\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\20d03e0f813b5a8c04434a71429162faf5eaa124\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\c736d738c8cd6c905de59c4034a14c119205cfa6\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.android\build-cache\08d1b9fffe46bdc558fdac865063d36d671e68cc\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:19:5-21:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Toni\.android\build-cache\84a50f7a6ef95ec14325d5a46b4faf9dc151a115\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\c736d738c8cd6c905de59c4034a14c119205cfa6\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

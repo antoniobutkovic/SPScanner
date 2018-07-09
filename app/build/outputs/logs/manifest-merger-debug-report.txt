@@ -1,152 +1,236 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fa2d0ffcca041c15c186aeb445990cd5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:17:1-57:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\493aa27f46278f06ed8f4766fe91d01c\AndroidManifest.xml:2:1-7:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\bebfdc4bc4003ef2412fcfad42123295\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\64f9996c3298a428c45e54c80ea4c034\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c1757ff6d8d350023931b9e6762fb3eb\AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\a8a035edfce5c68182b5927f3799b688\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\80d95bdf47476f3b0c85b567bd939445\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c77196b5590b6057afe0bd5fbf47b7f5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2bc4b7007ebaf8d8df66aaa5164bf373\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\638589a615613e197ba32da3006b708a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\44a98cd2f081c27d4b82a5afa5bde450\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0e8119b0139414f19ae01ca3214dadbd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5674b29453c019435ccc67c61f52fb57\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\33de02bc89efc235608bcac0c4a237ec\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:3:5-48
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:11-69
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:5:5-97
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:5:5-97
 	android:name
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:5:22-78
 application
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:7:5-22:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\1ca94cbc2071f9061ca0fcde9c0a64bdee5a946e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\9ee69962889c98fe612c6c7ef5c253dca904d500\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\46523461910c900982bc53716dc5cd97233e3100\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\28e5dfe3da7ca8c59a733dc875c5edb222bae0a0\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\83cb0467b12af71fc54695f751bb1b47e20189f0\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\f201e712cf173b595828cd122296f81d2d6d0905\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\20d03e0f813b5a8c04434a71429162faf5eaa124\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.android\build-cache\08d1b9fffe46bdc558fdac865063d36d671e68cc\output\AndroidManifest.xml:9:5-20
-MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:47:5-55:19
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\c736d738c8cd6c905de59c4034a14c119205cfa6\output\AndroidManifest.xml:29:5-20
-	android:label
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:10:9-41
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fa2d0ffcca041c15c186aeb445990cd5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fa2d0ffcca041c15c186aeb445990cd5\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:47:5-55:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:47:5-55:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\64f9996c3298a428c45e54c80ea4c034\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\64f9996c3298a428c45e54c80ea4c034\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c1757ff6d8d350023931b9e6762fb3eb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c1757ff6d8d350023931b9e6762fb3eb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2bc4b7007ebaf8d8df66aaa5164bf373\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2bc4b7007ebaf8d8df66aaa5164bf373\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\638589a615613e197ba32da3006b708a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\638589a615613e197ba32da3006b708a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\44a98cd2f081c27d4b82a5afa5bde450\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\44a98cd2f081c27d4b82a5afa5bde450\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0e8119b0139414f19ae01ca3214dadbd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0e8119b0139414f19ae01ca3214dadbd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5674b29453c019435ccc67c61f52fb57\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5674b29453c019435ccc67c61f52fb57\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\33de02bc89efc235608bcac0c4a237ec\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\33de02bc89efc235608bcac0c4a237ec\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:11:9-54
-	android:allowBackup
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.example.toni.spscannerupdated.main.MainActivity
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:14:9-20:20
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:14:9-40
 	android:name
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:14:19-52
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:15:13-19:29
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:8:9-28
+activity#com.example.toni.spscanner.ui.scan.ScanActivity
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:15:19-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:18:27-74
-activity#com.example.toni.spscannerupdated.history.HistoryActivity
-ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:21:9-70
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.toni.spscanner.ui.history.HistoryActivity
+ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:22:9-109
+	android:label
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:22:62-97
 	android:name
-		ADDED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:21:19-58
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml:22:19-61
 uses-sdk
-INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\1ca94cbc2071f9061ca0fcde9c0a64bdee5a946e\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\9ee69962889c98fe612c6c7ef5c253dca904d500\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\46523461910c900982bc53716dc5cd97233e3100\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\28e5dfe3da7ca8c59a733dc875c5edb222bae0a0\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\83cb0467b12af71fc54695f751bb1b47e20189f0\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\f201e712cf173b595828cd122296f81d2d6d0905\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\20d03e0f813b5a8c04434a71429162faf5eaa124\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.android\build-cache\08d1b9fffe46bdc558fdac865063d36d671e68cc\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:19:5-21:41
-MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Toni\.android\build-cache\84a50f7a6ef95ec14325d5a46b4faf9dc151a115\output\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\c736d738c8cd6c905de59c4034a14c119205cfa6\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fa2d0ffcca041c15c186aeb445990cd5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\fa2d0ffcca041c15c186aeb445990cd5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:19:5-21:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:19:5-21:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\493aa27f46278f06ed8f4766fe91d01c\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\493aa27f46278f06ed8f4766fe91d01c\AndroidManifest.xml:5:5-43
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\bebfdc4bc4003ef2412fcfad42123295\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\bebfdc4bc4003ef2412fcfad42123295\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\64f9996c3298a428c45e54c80ea4c034\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\64f9996c3298a428c45e54c80ea4c034\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c1757ff6d8d350023931b9e6762fb3eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c1757ff6d8d350023931b9e6762fb3eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\a8a035edfce5c68182b5927f3799b688\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\a8a035edfce5c68182b5927f3799b688\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\80d95bdf47476f3b0c85b567bd939445\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\80d95bdf47476f3b0c85b567bd939445\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c77196b5590b6057afe0bd5fbf47b7f5\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c77196b5590b6057afe0bd5fbf47b7f5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2bc4b7007ebaf8d8df66aaa5164bf373\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2bc4b7007ebaf8d8df66aaa5164bf373\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\638589a615613e197ba32da3006b708a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\638589a615613e197ba32da3006b708a\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\44a98cd2f081c27d4b82a5afa5bde450\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\44a98cd2f081c27d4b82a5afa5bde450\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0e8119b0139414f19ae01ca3214dadbd\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0e8119b0139414f19ae01ca3214dadbd\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5674b29453c019435ccc67c61f52fb57\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5674b29453c019435ccc67c61f52fb57\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\33de02bc89efc235608bcac0c4a237ec\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\33de02bc89efc235608bcac0c4a237ec\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Toni\AndroidStudioProjects\SPScanner\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\1ca94cbc2071f9061ca0fcde9c0a64bdee5a946e\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\9ee69962889c98fe612c6c7ef5c253dca904d500\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\46523461910c900982bc53716dc5cd97233e3100\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\28e5dfe3da7ca8c59a733dc875c5edb222bae0a0\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\83cb0467b12af71fc54695f751bb1b47e20189f0\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\f201e712cf173b595828cd122296f81d2d6d0905\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\20d03e0f813b5a8c04434a71429162faf5eaa124\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\c736d738c8cd6c905de59c4034a14c119205cfa6\output\AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\64f9996c3298a428c45e54c80ea4c034\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\64f9996c3298a428c45e54c80ea4c034\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c1757ff6d8d350023931b9e6762fb3eb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c1757ff6d8d350023931b9e6762fb3eb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2bc4b7007ebaf8d8df66aaa5164bf373\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2bc4b7007ebaf8d8df66aaa5164bf373\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\638589a615613e197ba32da3006b708a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\638589a615613e197ba32da3006b708a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\44a98cd2f081c27d4b82a5afa5bde450\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\44a98cd2f081c27d4b82a5afa5bde450\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0e8119b0139414f19ae01ca3214dadbd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0e8119b0139414f19ae01ca3214dadbd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5674b29453c019435ccc67c61f52fb57\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5674b29453c019435ccc67c61f52fb57\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\33de02bc89efc235608bcac0c4a237ec\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\33de02bc89efc235608bcac0c4a237ec\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Toni\.android\build-cache\debefa6d91b181be36928bc3da902e3f1fbb2289\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\251c09099056e4eb4ae0e96cfc225b5a\AndroidManifest.xml:27:13-51
 uses-permission#android.permission.CAMERA
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:23:5-65
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:23:5-65
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:23:22-62
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:23:22-62
 uses-feature#android.hardware.camera
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:26:5-28:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:26:5-28:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:28:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:28:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:27:9-47
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:27:9-47
 uses-feature#android.hardware.camera.front
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:29:5-31:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:29:5-31:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:31:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:31:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:30:9-53
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:30:9-53
 uses-feature#android.hardware.camera.autofocus
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:34:5-36:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:34:5-36:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:36:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:36:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:35:9-57
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:35:9-57
 uses-feature#android.hardware.camera.flash
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:37:5-39:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:37:5-39:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:39:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:39:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:38:9-53
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:38:9-53
 uses-feature#android.hardware.screen.landscape
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:40:5-42:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:40:5-42:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:42:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:42:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:41:9-57
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:41:9-57
 uses-feature#android.hardware.wifi
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:43:5-45:36
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:43:5-45:36
 	android:required
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:45:9-33
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:45:9-33
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:44:9-45
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:44:9-45
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:48:9-54:63
-	android:clearTaskOnLaunch
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:50:13-45
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:48:9-54:63
 	android:screenOrientation
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:51:13-56
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:51:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:50:13-45
 	android:stateNotNeeded
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:52:13-42
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:52:13-42
 	android:windowSoftInputMode
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:54:13-60
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:54:13-60
 	android:theme
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:53:13-54
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:53:13-54
 	android:name
-		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.android\build-cache\8ec4e1da87856b9a29bd5ec6474dbf6fab09ebb9\output\AndroidManifest.xml:49:13-74
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.0.2.aar\61f97f7de26918fa0ef720d0e511596d\AndroidManifest.xml:49:13-74
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Toni\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\b4dc160ad69dfdc42234032eb5d39cca\AndroidManifest.xml:26:13-58

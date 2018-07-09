@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SPScanner</string>
+    <string name="scanning_interrupted_text">Skeniranje je prekinuto.</string>
+    <string name="no_results_found_text">Nema pronađenih rezultata.</string>
+    <string name="unable_to_find_file_text">Datoteka nije pronađena.</string>
+    <string name="unable_to_open_file_text">Nije moguće pročitati datoteku.</string>
+    <string name="dialog_negative_btn_text">Poništi</string>
+    <string name="dialog_positive_btn_text">Nastavi skenirati</string>
+    <string name="history_deleted_text">Povijest obrisana.</string>
 </resources>

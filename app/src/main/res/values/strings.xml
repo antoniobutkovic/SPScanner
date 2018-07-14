@@ -7,4 +7,6 @@
     <string name="dialog_negative_btn_text">Poništi</string>
     <string name="dialog_positive_btn_text">Nastavi skenirati</string>
     <string name="history_deleted_text">Povijest obrisana.</string>
+    <string name="choose_file_title_text">Odaberi datoteku</string>
+    <string name="wrong_file_selected_error_text">Odaberite .xls datoteku</string>
 </resources>

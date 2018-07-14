@@ -34,4 +34,5 @@ public class DialogHelperImpl implements DialogHelper{
         AlertDialog dialog = builder.create();
         dialog.show();
     }
+
 }

@@ -10,4 +10,5 @@ public interface FileReadFinishedListener {
     void unableToOpenFile();
 
     void unableToFindFile();
+
 }

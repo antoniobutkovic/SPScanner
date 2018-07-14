@@ -12,13 +12,19 @@ import java.io.IOException;
 
 public class POIHandlerImpl implements POIHandler{
 
+    String filePath;
+
+    public POIHandlerImpl(String filePath){
+        this.filePath = filePath;
+    }
+
     @Override
     public HSSFWorkbook getWorkbook() throws IOException {
         return new HSSFWorkbook(getFis());
     }
 
     File getFile(){
-        return new File(Environment.getExternalStorageDirectory(), Constants.FILE_NAME);
+        return new File(filePath);
     }
 
     FileInputStream getFis() throws FileNotFoundException {

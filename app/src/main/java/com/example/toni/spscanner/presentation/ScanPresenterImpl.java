@@ -49,6 +49,7 @@ public class ScanPresenterImpl implements ScanPresenter{
             public void unableToFindFile() {
                 view.showUnableToFindFileErrorMessage();
             }
+
         });
     }
 

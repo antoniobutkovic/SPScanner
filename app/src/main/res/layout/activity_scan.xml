@@ -9,8 +9,17 @@
     <Button
         android:layout_width="170dp"
         android:layout_height="40dp"
+        android:text="Odaberi datoteku"
+        android:id="@+id/selectBtn"
+        android:background="@drawable/button"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
         android:text="Skeniraj"
-        android:id="@+id/scan_btn"
+        android:id="@+id/scanBtn"
         android:background="@drawable/button"
         android:textColor="@color/colorAccent" />
 
@@ -19,7 +28,7 @@
         android:layout_width="170dp"
         android:layout_height="40dp"
         android:text="Povijest"
-        android:id="@+id/history_btn"
+        android:id="@+id/historyBtn"
         android:background="@drawable/button"
         android:textColor="@color/colorAccent"/>
 

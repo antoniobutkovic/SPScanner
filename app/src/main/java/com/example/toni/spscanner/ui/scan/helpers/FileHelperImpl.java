@@ -1,6 +1,8 @@
 package com.example.toni.spscanner.ui.scan.helpers;
 
 
+import android.util.Log;
+
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
@@ -22,8 +24,10 @@ public class FileHelperImpl implements FileHelper{
             workbook = poiHandler.getWorkbook();
         } catch (FileNotFoundException e) {
             listener.unableToFindFile();
+            return;
         }catch (IOException e){
             listener.unableToOpenFile();
+            return;
         }
 
 

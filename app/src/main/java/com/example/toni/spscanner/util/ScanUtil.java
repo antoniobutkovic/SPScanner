@@ -1,13 +1,12 @@
-package com.example.toni.spscanner.ui.scan.helpers;
+package com.example.toni.spscanner.util;
 
 import android.app.Activity;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 
-public class ScanHelperImpl implements ScanHelper{
+public class ScanUtil {
 
-    @Override
-    public void initiateScan(Activity activity) {
+    public static void initiateScan(Activity activity) {
         IntentIntegrator intentIntegrator = new IntentIntegrator(activity);
         intentIntegrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
         intentIntegrator.setPrompt("");
@@ -15,5 +14,4 @@ public class ScanHelperImpl implements ScanHelper{
         intentIntegrator.setBeepEnabled(false);
         intentIntegrator.initiateScan();
     }
-
 }
